@@ -1,0 +1,357 @@
+/* -------------------------------banner */
+
+.banner {
+    background: url(../images/11.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 720px;
+    padding-top: 200px;
+    position: relative;
+}
+
+.banner-info {
+    width: 50%;
+    text-align: left;
+    margin-left: 200px;
+}
+
+.banner-info p {
+    font-size: 1.8em;
+    line-height: 1.8em;
+    color: #fff;
+    font-weight: 300;
+    margin: 0 0 1em;
+}
+
+.banner-info a {
+    padding: 15px 15px;
+    width: 150px;
+    color: white;
+    background-color: #d21826;
+}
+
+.banner-info a:hover {
+    transition: all 200ms;
+    background-color: black;
+    color: white;
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    -ms-transition: all 200ms;
+    -o-transition: all 200ms;
+}
+
+.banner h2 {
+    color: white;
+}
+
+
+/* ------------------------------offer */
+
+.offer .content,
+.about .content {
+    display: flex;
+    padding: 5em 0;
+}
+
+.about li,
+.offer li {
+    display: block;
+    line-height: 2em;
+}
+
+.offer h3 {
+    font-size: 2em;
+    color: #6D6767;
+    font-weight: 400;
+    margin: 0 0 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.offer p {
+    font-size: 1em;
+    line-height: 1.8em;
+    color: #999;
+    margin: 1em 0;
+    font-weight: 300;
+}
+
+.offer-left {
+    width: 66.66%;
+    padding: 15px;
+}
+
+.about li a,
+.offer li a {
+    color: #6D6767;
+    font-size: 1em;
+    text-decoration: none;
+    text-align: left;
+    vertical-align: middle;
+    padding: 0.5em;
+    display: block;
+}
+
+.offer-right {
+    width: 33.33%;
+    padding: 15px;
+}
+
+.offer-right>div {
+    background-color: #eee;
+    padding: 3em 1.2em;
+    text-align: center;
+    margin: 0 0 1em;
+}
+
+.about li a span,
+.offer li a span {
+    width: 22px;
+    height: 14px;
+    display: inline-block;
+    background: url(../images/rigt-ar.png) no-repeat 1px -1px;
+    margin-right: 0.5em;
+    vertical-align: middle;
+}
+
+.offer h4 {
+    font-size: 1.4em;
+    color: #6D6767;
+    font-weight: 400;
+    margin: 0 0 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.offer input[type="text"] {
+    font-size: 0.95em;
+    color: #A5A5A5;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    width: 65%;
+    outline: none;
+    background: none;
+    border: 1px solid #6D6767;
+}
+
+.offer input[type="submit"] {
+    padding: 0.55em 0em;
+    font-size: 1em;
+    width: 25%;
+    text-indent: 2px;
+    background: #6D6767;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+.offer-right img {
+    width: 100%;
+}
+
+.about {
+    background-color: #eee
+}
+
+.about h4 {
+    font-size: 2em;
+    color: #6D6767;
+    font-weight: 400;
+    margin: 1em 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.abt-top {
+    display: flex;
+    padding: 15px;
+}
+
+.abt-top .abt-lft {
+    width: 50%;
+}
+
+.abt-rgt {
+    padding: 15px;
+}
+
+.abt-top .abt-lft img {
+    width: 100%;
+    position: relative;
+    top: 15px;
+}
+
+.about h5 {
+    font-size: 1.7em;
+    color: #6D6767;
+    font-weight: 400;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about p {
+    font-size: 1em;
+    line-height: 1.8em;
+    color: #999;
+    margin: 1em 0;
+    font-weight: 300;
+}
+
+.abt-rgt a {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #d21826;
+    color: white;
+}
+
+.abt-rgt a:hover {
+    transition: all 200ms;
+    background-color: black;
+    color: white;
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    -ms-transition: all 200ms;
+    -o-transition: all 200ms;
+}
+
+
+/* ================================gallery 
+*/
+
+.gallery {
+    padding: 10em 0;
+    background-color: #fff;
+}
+
+.grid {
+    display: flex;
+    margin-top: 40px;
+}
+
+.grid img {
+    width: 100%;
+    height: 250px;
+}
+
+.gallery h3 {
+    font-size: 2.5em;
+    color: #6D6767;
+    font-weight: 400;
+    text-align: center;
+    margin: 1em 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.grid>div {
+    width: 33.333%;
+    padding: 0 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    content: "";
+    left: 15px;
+    right: 0;
+    top: 100%;
+    bottom: 0;
+    width: calc(100% - 30px);
+    height: 100%;
+    opacity: 0.4;
+    background-color: #d21826;
+}
+
+figure {
+    overflow: hidden;
+}
+
+.grid>div:hover figcaption {
+    top: 0;
+    transition: all 200ms;
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    -ms-transition: all 200ms;
+    -o-transition: all 200ms;
+}
+
+
+/* ==================================content-mid */
+
+.content-mid-top p {
+    color: #999;
+    font-size: 1em;
+    line-height: 1.8em;
+    font-weight: 300;
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.content-mid-top h3 {
+    font-size: 2.5em;
+    color: #6D6767;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.news {
+    padding: 2em 0 0;
+    display: flex;
+}
+
+.new-more {
+    width: 33.333%;
+}
+
+.six {
+    padding: 0em 0 1.5em;
+}
+
+.six:hover h4 {
+    transform: rotate(360deg);
+    transition: all 200ms;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    -ms-transition: all 200ms;
+    -o-transition: all 200ms;
+}
+
+.six h4 {
+    color: #6D6767;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    text-align: center;
+    border: 3px solid #6D6767;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    padding: 0.3em 0 0;
+}
+
+.six h4 span {
+    display: block;
+    font-size: 18px;
+}
+
+.content-mid-top h3 {
+    font-size: 2.5em;
+    color: #6D6767;
+    font-weight: 400;
+    margin: 0 0 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.new-more p {
+    font-size: 1em;
+    color: #999;
+    line-height: 1.8em;
+    margin: 0 0 1em;
+    font-weight: 300;
+}
+
+
